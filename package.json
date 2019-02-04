@@ -1,0 +1,30 @@
+{
+  "name": "ebookseller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbtsao47/ebookseller.git"
+  },
+  "keywords": [],
+  "author": "Ben Tsao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cbtsao47/ebookseller/issues"
+  },
+  "homepage": "https://github.com/cbtsao47/ebookseller#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "stripe": "^6.23.0"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "nodemon": "^1.18.9"
+  }
+}
